@@ -4,7 +4,7 @@ title: "Using Jenkins Pipeline"
 author: "Bobby Corpus"
 categories: journal/openshift_workshop
 tags: [documentation,sample]
-image: openshift_workshop/todo_pipeline.png
+image: todo_pipeline-cards.png
 ---
 
 ## Register to Gogs 
