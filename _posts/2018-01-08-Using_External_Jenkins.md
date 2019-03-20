@@ -4,7 +4,7 @@ title: "Using External Jenkins"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-#image: cards.jpg
+image: openshift_cicd_workflow.png
 ---
 
 ## Assumptions
