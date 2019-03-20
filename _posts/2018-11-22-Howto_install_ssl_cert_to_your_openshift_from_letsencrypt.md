@@ -4,7 +4,7 @@ title: "How to install Wildcard SSL certificates from Letsencrypt to your OpenSh
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-image: le-logo-wide.png
+image: le-cards.png
 ---
 
 ## Assumptions
