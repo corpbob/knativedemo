@@ -4,7 +4,7 @@ title: "How To Install Openshift Origin 3 nodes using Ansible"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-#image: cards.jpg
+image: ansible_3node_openshift-card.png
 ---
 
 ## Pre-Requisites
