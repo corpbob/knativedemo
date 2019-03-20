@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Text Formatting Examples"
-author: "Paul Le"
+author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
 image: cards.jpg
