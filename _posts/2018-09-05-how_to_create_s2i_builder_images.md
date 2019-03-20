@@ -4,7 +4,7 @@ title: "How to Build s2i images"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-#image: cards.jpg
+image: s2i-cards.png
 ---
 
 # How to Build s2i images
