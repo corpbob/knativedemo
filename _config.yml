@@ -15,13 +15,14 @@ paginate:            5
 
 # Build settings
 markdown:            kramdown
+theme: minima
 highlighter:         rouge
 permalink:           none
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Lagrange'
-description:	       'a minimalist Jekyll theme'
+title:		           'All About Coding'
+description:	       "How-To's, Tutorials, Demos"
 author:              'Paul Le'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
