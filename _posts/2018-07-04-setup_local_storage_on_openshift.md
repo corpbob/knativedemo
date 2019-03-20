@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: local-storage-cards.png
 ---
 
-## Assumptions
+## Assumptions 1
 
 - This is just a POC and not for production use.
 - You have an openshift cluster with N nodes.
