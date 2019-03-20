@@ -4,7 +4,7 @@ title: "Configure the CI/CD pipeline"
 author: "Bobby Corpus"
 categories: journal/openshift_workshop
 tags: [documentation,sample]
-#image: cards.jpg
+image: openshift_workshop/todo_dev_wait_for_approval.png
 ---
 
 ## Setup the UAT environment
