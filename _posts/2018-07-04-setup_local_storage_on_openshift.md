@@ -4,7 +4,7 @@ title: "How to Setup Local Storage on OpenShift Cluster"
 author: "Bobby Corpus"
 categories: journal
 tags: [documentation,sample]
-#image: cards.jpg
+image: local-storage-cards.png
 ---
 ## Assumptions
 - This is just a POC and not for production use.
