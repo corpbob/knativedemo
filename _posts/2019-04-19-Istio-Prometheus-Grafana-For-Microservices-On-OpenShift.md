@@ -14,7 +14,7 @@ We assume we have the following:
 - An openshift 3.11 cluster (an all-in-one VM is fine)
 - A cluster-admin account
 - Ansible installed (version 2.6.15 and higher)
-- Siege installed
+- Siege installed [https://www.tecmint.com/load-testing-web-servers-with-siege-benchmarking-tool/](https://www.tecmint.com/load-testing-web-servers-with-siege-benchmarking-tool/) 
 
 ## Install Istio on OpenShift
 
@@ -36,7 +36,7 @@ After the installation, a route will be available for us to access the Kiali and
 
 ## Deploying the Microservices
 
-For this demonstration, we will instantiate 3 microservices from the same application which you can find here. [link here](link here). Let's call them MSA1, MSA2 and MSA3 respectively. MSA1 will call MSA2 and MSA3, combine the results and return them to the caller. The MSA2 will just return "hello from msa2". The MSA3 will have 2 versions, namely version v1 and version v2. Each version will just return "hwllo from msa3 version x", where x is either v1 or v2. A call to MSA3 will be load balanced between the two versions. 
+For this demonstration, we will instantiate 3 microservices from the same application which you can find here. [https://github.com/corpbob/egress-demo.git](https://github.com/corpbob/egress-demo.git). Let's call them MSA1, MSA2 and MSA3 respectively. MSA1 will call MSA2 and MSA3, combine the results and return them to the caller. The MSA2 will just return "hello from msa2". The MSA3 will have 2 versions, namely version v1 and version v2. Each version will just return "hello from msa3 version x", where x is either v1 or v2. A call to MSA3 will be load balanced between the two versions. 
 
 Setting up the microservices is easy.  We just need to supply an value to an environment variable called ```FORTUNE_COMMAND``` which tells it what command to execute. If the ```FORTUNE_COMMAND``` is not set, it will execute the ```fortune``` command that will return a quotation.
 
