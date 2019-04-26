@@ -115,6 +115,9 @@ Go to the istio-system project and launch the grafana ui. Create a new dashboard
 ```prometheus
 sum(irate(istio_requests_total{destination_service_name="msa1", response_code=~"5.*"}[5m]))
 ```
+
+For more information about Prometheus Query Language, see [https://prometheus.io/docs/prometheus/latest/querying/basics/](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+
 Looking at the query above, we can see that the query only matches those data that has the property ```destination_service_name="msa1"``` and ```response_code``` matching the regular expression "5.*". Also, we only queried for a moving window of 5 minutes.
 
 Since this is going to be a ratio, we need to get the total requests to MSA1 irrespective of the response code. This is queried using:
