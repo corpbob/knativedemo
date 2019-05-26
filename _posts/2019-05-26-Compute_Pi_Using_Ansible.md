@@ -139,7 +139,7 @@ To see this, we know that if $$\tan(\theta) = x$$, then
 
 $$
 \begin{array}{rl}
-\displaystyle \frac{\sin(\theta)}{\cos\theta} &= x
+\displaystyle \frac{\sin\theta}{\cos\theta} &= x
 \end{array}
 $$
 
@@ -150,7 +150,7 @@ $$
 \displaystyle \frac{\cos\theta \cdot d(\sin\theta) - sin\theta \cdot d(\cos\theta)}{\cos^2\theta} &= dx\\
 \displaystyle \frac{\cos^2\theta + \sin^2\theta}{\cos^2\theta} \cdot d\theta &= dx\\
 \displaystyle \frac{1}{\cos^2\theta}d\theta &= dx\\
-d\theta &= cos\theta dx
+d\theta &= \cos^2 \theta dx
 \end{array}
 $$ 
 
@@ -168,16 +168,16 @@ Therefore,
 
 $$
 \begin{array}{rl}
-d\theta &= \displaystyle \frac{1}{1+x^2}\\
-\theta &= \displaystyle \int \frac{1}{1+x^2} \\
-tan^{-1}{x} &= \displaystyle \int \frac{1}{1+x^2}
+d\theta &= \displaystyle \frac{dx}{1+x^2}\\
+\theta &= \displaystyle \int \frac{dx}{1+x^2} \\
+\tan^{-1}{x} &= \displaystyle \int \frac{dx}{1+x^2}
 \end{array}
 $$
 
 Integrating $$x$$ between 0 and 1 we get:
 
 $$
-\int_0^1 \frac{1}{1+x^2} = \tan^{-1} 1 - \tan^{-1} 0 = \pi/4
+\int_0^1 \frac{dx}{1+x^2} = \tan^{-1} 1 - \tan^{-1} 0 = \pi/4
 $$ 
 
 and the result follows.
