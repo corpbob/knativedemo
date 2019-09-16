@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Route
+metadata:
+  name: greeter
+spec:
+  traffic:
+    - revisionName: greeter-4hlfh
+      percent: 75
+    - revisionName: greeter-bvfpq
+      percent: 25
