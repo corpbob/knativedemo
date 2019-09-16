@@ -330,3 +330,4 @@ oc apply -f 22-channel-subscriber.yaml
 Notice that the event-greeter pod will scale to 1 after some time. And if you look at the logs of the event-greeter, you will see something like:
 
 ![/assets/img/2019-08-21-introduction-to-knative/subscription.png](/assets/img/2019-08-21-introduction-to-knative/subscription.png)
+
